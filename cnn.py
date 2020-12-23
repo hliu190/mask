@@ -26,9 +26,9 @@ from sys import exit
 # 缩放图片的大小
 IMAGE_SIZE = (256, 192)
 # 分析目标的图片所在的文件夹
-IMAGE_DIR = "./archive/images"
+IMAGE_DIR = "./images"
 # 定义各个图片中人脸区域与分类的 CSV 文件
-ANNOTATION_DIR = "./archive/annotations"
+ANNOTATION_DIR = "./annotations"
 # 分类列表
 CLASSES = [ "other", "with_mask", "without_mask", "mask_weared_incorrect" ]
 CLASSES_MAPPING = { c: index for index, c in enumerate(CLASSES) }
@@ -544,7 +544,7 @@ def prepare():
             box_map[filename].append((x1, y1, x2-x1, y2-y1, CLASSES_MAPPING[class_name]))
 
     # 保存图片和图片对应的分类与区域列表
-    batch_size = 20
+    batch_size = 200
     batch = 0
     image_tensors = [] # 图片列表
     image_boxes_labels = {} # 图片对应的真实区域与分类列表，和候选区域与区域偏移
@@ -618,7 +618,7 @@ def prepare():
             image_boxes_labels.clear()
             batch += 1
     # 保存剩余的批次
-    if len(image_tensors) > 10:
+    if len(image_tensors) > 50:
         prepare_save_batch(batch, image_tensors, image_boxes_labels)
 
 def train():

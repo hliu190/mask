@@ -1,0 +1,8 @@
+with_mask 34 87 51 103
+with_mask 167 91 211 140
+with_mask 281 95 316 125
+with_mask 347 87 400 171
+with_mask 34 87 51 103
+with_mask 167 91 211 140
+with_mask 281 95 316 125
+with_mask 347 87 400 171

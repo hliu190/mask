@@ -1,0 +1,2 @@
+without_mask 129 197 212 317
+without_mask 129 197 212 317

@@ -1,0 +1,2 @@
+without_mask 134 191 229 316
+without_mask 134 191 229 316

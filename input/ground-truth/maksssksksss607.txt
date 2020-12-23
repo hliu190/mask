@@ -1,0 +1,4 @@
+with_mask 67 70 146 161
+with_mask 239 81 357 175
+with_mask 67 70 146 161
+with_mask 239 81 357 175

@@ -1,0 +1,16 @@
+with_mask 21 48 77 104
+with_mask 118 84 163 131
+with_mask 157 113 189 146
+with_mask 172 65 202 95
+with_mask 195 103 240 150
+with_mask 260 129 302 173
+with_mask 283 42 314 71
+mask_weared_incorrect 364 84 399 121
+with_mask 21 48 77 104
+with_mask 118 84 163 131
+with_mask 157 113 189 146
+with_mask 172 65 202 95
+with_mask 195 103 240 150
+with_mask 260 129 302 173
+with_mask 283 42 314 71
+mask_weared_incorrect 364 84 399 121

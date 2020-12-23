@@ -1,0 +1,8 @@
+mask_weared_incorrect 126 62 147 91
+with_mask 184 91 201 115
+with_mask 307 86 323 105
+without_mask 370 95 381 108
+mask_weared_incorrect 126 62 147 91
+with_mask 184 91 201 115
+with_mask 307 86 323 105
+without_mask 370 95 381 108

@@ -1,0 +1,10 @@
+with_mask 8 64 43 93
+with_mask 225 44 261 93
+with_mask 208 52 225 77
+with_mask 328 48 348 66
+without_mask 138 55 169 82
+with_mask 8 64 43 93
+with_mask 225 44 261 93
+with_mask 208 52 225 77
+with_mask 328 48 348 66
+without_mask 138 55 169 82

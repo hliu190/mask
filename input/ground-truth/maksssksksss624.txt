@@ -1,0 +1,2 @@
+without_mask 95 195 193 338
+without_mask 95 195 193 338

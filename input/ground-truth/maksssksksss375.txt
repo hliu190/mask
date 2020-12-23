@@ -1,0 +1,4 @@
+without_mask 259 76 277 94
+without_mask 273 192 289 210
+without_mask 259 76 277 94
+without_mask 273 192 289 210

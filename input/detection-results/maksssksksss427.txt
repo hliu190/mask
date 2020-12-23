@@ -1,0 +1,2 @@
+with_mask 1.0 0 0 0 0
+mask_weared_incorrect 0 124 60 180 123

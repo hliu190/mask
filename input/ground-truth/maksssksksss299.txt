@@ -1,0 +1,2 @@
+without_mask 62 194 160 320
+without_mask 62 194 160 320

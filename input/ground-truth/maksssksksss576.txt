@@ -1,0 +1,4 @@
+with_mask 105 70 180 155
+with_mask 176 79 259 175
+with_mask 105 70 180 155
+with_mask 176 79 259 175

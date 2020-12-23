@@ -1,0 +1,4 @@
+with_mask 112 90 158 132
+with_mask 237 61 285 103
+with_mask 112 90 158 132
+with_mask 237 61 285 103

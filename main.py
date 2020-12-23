@@ -47,7 +47,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 GT_PATH = os.path.join(os.getcwd(), 'input', 'ground-truth')
 DR_PATH = os.path.join(os.getcwd(), 'input', 'detection-results')
 # if there are no images then no animation can be shown
-IMG_PATH = os.path.join(os.getcwd(), 'input', 'images-optional')
+IMG_PATH = os.path.join(os.getcwd(), 'images')
 if os.path.exists(IMG_PATH): 
     for dirpath, dirnames, files in os.walk(IMG_PATH):
         if not files:
@@ -750,7 +750,7 @@ if show_animation:
             if not obj['used']:
                 bbgt = [ int(round(float(x))) for x in obj["bbox"].split() ]
                 cv2.rectangle(img,(bbgt[0],bbgt[1]),(bbgt[2],bbgt[3]),pink,2)
-        cv2.imwrite(img_cumulative_path, img)
+        #cv2.imwrite(img_cumulative_path, img)
 
 # remove the temp_files directory
 shutil.rmtree(TEMP_FILES_PATH)

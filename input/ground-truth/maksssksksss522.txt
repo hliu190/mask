@@ -1,0 +1,6 @@
+without_mask 1 174 17 211
+without_mask 112 134 150 182
+without_mask 124 193 148 218
+without_mask 1 174 17 211
+without_mask 112 134 150 182
+without_mask 124 193 148 218
