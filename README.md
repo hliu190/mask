@@ -1,3 +1,11 @@
+# workflow
+* cnn prepare
+* cnn train
+* eval
+* 
+
+
+
 # mAP (mean Average Precision)
 
 [![GitHub stars](https://img.shields.io/github/stars/Cartucho/mAP.svg?style=social&label=Stars)](https://github.com/Cartucho/mAP)
