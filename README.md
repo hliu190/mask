@@ -1,9 +1,9 @@
 # workflow
-* cnn prepare
-* cnn train
-* eval
-* 
-
+* python3 cnn.py prepare
+* python3 cnn.py train
+* python3 eval.py
+* python3 convert_gt_xml.py
+* python3 main.py
 
 
 # mAP (mean Average Precision)
