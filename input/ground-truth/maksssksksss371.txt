@@ -1,2 +1,0 @@
-mask_weared_incorrect 160 37 263 154
-mask_weared_incorrect 160 37 263 154

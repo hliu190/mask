@@ -1,2 +1,0 @@
-with_mask 186 41 217 77
-with_mask 186 41 217 77

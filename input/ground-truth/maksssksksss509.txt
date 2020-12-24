@@ -1,2 +1,0 @@
-with_mask 151 1 242 57
-with_mask 151 1 242 57

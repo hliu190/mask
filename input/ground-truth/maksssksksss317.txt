@@ -1,4 +1,0 @@
-with_mask 67 53 164 174
-without_mask 283 25 326 69
-with_mask 67 53 164 174
-without_mask 283 25 326 69

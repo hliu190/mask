@@ -1,2 +1,0 @@
-without_mask 91 103 239 265
-without_mask 91 103 239 265

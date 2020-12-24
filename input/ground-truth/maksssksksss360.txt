@@ -1,2 +1,0 @@
-with_mask 173 33 206 71
-with_mask 173 33 206 71

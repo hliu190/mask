@@ -1,8 +1,0 @@
-with_mask 295 75 334 115
-with_mask 198 91 223 116
-with_mask 225 65 248 90
-with_mask 119 85 149 115
-with_mask 295 75 334 115
-with_mask 198 91 223 116
-with_mask 225 65 248 90
-with_mask 119 85 149 115

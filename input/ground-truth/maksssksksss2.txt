@@ -1,8 +1,0 @@
-with_mask 68 42 105 69
-with_mask 154 47 178 74
-with_mask 238 34 262 69
-mask_weared_incorrect 333 31 366 65
-with_mask 68 42 105 69
-with_mask 154 47 178 74
-with_mask 238 34 262 69
-mask_weared_incorrect 333 31 366 65

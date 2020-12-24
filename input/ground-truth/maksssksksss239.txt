@@ -1,2 +1,0 @@
-without_mask 91 208 189 317
-without_mask 91 208 189 317

@@ -1,2 +1,0 @@
-without_mask 86 189 188 304
-without_mask 86 189 188 304

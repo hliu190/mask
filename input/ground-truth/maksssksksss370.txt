@@ -1,2 +1,0 @@
-without_mask 135 135 241 263
-without_mask 135 135 241 263

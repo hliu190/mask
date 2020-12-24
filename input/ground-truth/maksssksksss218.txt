@@ -1,2 +1,0 @@
-without_mask 139 223 251 371
-without_mask 139 223 251 371

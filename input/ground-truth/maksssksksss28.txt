@@ -1,2 +1,0 @@
-with_mask 105 23 170 96
-with_mask 105 23 170 96

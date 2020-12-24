@@ -1,2 +1,0 @@
-with_mask 79 79 272 269
-with_mask 79 79 272 269

@@ -1,2 +1,0 @@
-without_mask 152 192 239 319
-without_mask 152 192 239 319

@@ -1,2 +1,0 @@
-mask_weared_incorrect 105 76 161 116
-mask_weared_incorrect 105 76 161 116

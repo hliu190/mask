@@ -1,4 +1,0 @@
-with_mask 89 21 112 44
-without_mask 289 21 311 44
-with_mask 89 21 112 44
-without_mask 289 21 311 44

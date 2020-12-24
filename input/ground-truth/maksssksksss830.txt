@@ -1,1 +1,0 @@
-mask_weared_incorrect 167 77 220 133

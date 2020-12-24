@@ -1,4 +1,0 @@
-with_mask 77 69 130 112
-with_mask 280 54 329 99
-with_mask 77 69 130 112
-with_mask 280 54 329 99

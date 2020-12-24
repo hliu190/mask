@@ -1,2 +1,0 @@
-without_mask 112 214 183 319
-without_mask 112 214 183 319

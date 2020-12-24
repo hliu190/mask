@@ -1,2 +1,0 @@
-with_mask 15 79 42 105
-with_mask 288 88 317 127

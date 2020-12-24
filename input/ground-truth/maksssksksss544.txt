@@ -1,2 +1,0 @@
-without_mask 145 200 240 324
-without_mask 145 200 240 324

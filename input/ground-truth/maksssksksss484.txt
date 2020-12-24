@@ -1,2 +1,0 @@
-mask_weared_incorrect 82 52 141 115
-mask_weared_incorrect 82 52 141 115
