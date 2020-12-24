@@ -1,4 +1,4 @@
-without_mask 0 88 38 121 73
-without_mask 1.0 299 62 326 89
-without_mask 0 9 47 38 77
+without_mask 0.6636762598212459 88 38 121 73
+without_mask 0.7381202905894935 299 62 326 89
+without_mask 0.9007512602024262 9 47 38 77
 without_mask 0 177 54 201 81

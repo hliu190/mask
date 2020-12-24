@@ -50,31 +50,36 @@ def eval_model():
             continue
         # 合并重叠的结果区域, 结果是 [ [标签列表, 合并后的区域], ... ]
         final_result = []
+        confidences=[]
+        iou=0
         for label, box in cls_result:
             for index in range(len(final_result)):
                 exists_labels, exists_box = final_result[index]
-                if calc_iou(box, exists_box) > IOU_MERGE_THRESHOLD:
+                iou=calc_iou(box, exists_box)
+                if iou > IOU_MERGE_THRESHOLD:
                     exists_labels.append(label)
                     final_result[index] = (exists_labels, merge_box(box, exists_box))
+                    confidences[index] = iou
                     break
             else:
                 final_result.append(([label], box))
+                confidences.append(iou)
         
         # 合并标签 (重叠区域的标签中数量最多的分类为最终分类)
         for index in range(len(final_result)):
             labels, box = final_result[index]
             final_label = Counter(labels).most_common(1)[0][0]
-            final_result[index] = (final_label, box)
+            final_result[index] = (final_label, box,confidences[index])
         # 标记在图片上
         draw = ImageDraw.Draw(img_output)
         txt_output=""
-        for label, box in final_result:
+        for label, box, confidence in final_result:
             x, y, w, h = map_box_to_original_image(box, sw, sh)
             draw.rectangle((x, y, x+w, y+h), outline="#FF0000")
             draw.text((x, y-10), CLASSES[label], fill="#FF0000")
             txt_output+=CLASSES[label]
             txt_output+=" "
-            txt_output+=str(calc_iou(box, exists_box))
+            txt_output+=str(confidence)
             txt_output+=" "
             txt_output+=str(x)
             txt_output+=" "

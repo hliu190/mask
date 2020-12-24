@@ -1,1 +1,1 @@
-mask_weared_incorrect 1.0 168 60 240 140
+mask_weared_incorrect 0.7862651733854072 168 60 240 140
